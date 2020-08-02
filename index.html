@@ -8,6 +8,8 @@
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/style.css">
     
     <!-- JS, Popper.js, and jQuery -->
@@ -50,8 +52,7 @@
               </nav>
         </div>
     </header>
-    
-    
+
     <section id="intro">
         <div class="jumbotron" >
             <div class="container">
@@ -86,6 +87,61 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="jslider"> 
+        <div class="flexslider carousel">
+            <ul class="slides">
+              <li>
+                <a href="picture/jslider1.jpeg" data-fancybox="gallery">
+                    <img src="picture/jslider1.jpeg" />
+                </a>
+              </li>
+              <li>
+                <a href="picture/jslider2.jpeg" data-fancybox="gallery">
+                    <img src="picture/jslider2.jpeg" />
+                </a>
+                
+              </li>
+              <li>
+                <a href="picture/jslider3.jpeg" data-fancybox="gallery">
+                    <img src="picture/jslider3.jpeg" />
+                </a>
+                
+              </li>
+              <li>
+                <a href="picture/jslider4.jpeg" data-fancybox="gallery">
+                    <img src="picture/jslider4.jpeg" />
+                </a>
+                
+              </li>
+              <li>
+                <a href="picture/jslider1.jpeg" data-fancybox="gallery">
+                    <img src="picture/jslider1.jpeg" />
+                </a>
+                
+              </li>
+              <li>
+                <a href="picture/jslider2.jpeg" data-fancybox="gallery">
+                    <img src="picture/jslider2.jpeg" />
+                </a>
+                
+              </li>
+              <li>
+                <a href="picture/jslider3.jpeg" data-fancybox="gallery">
+                    <img src="picture/jslider3.jpeg" />
+                </a>
+                
+              </li>
+              <li>
+                <a href="picture/jslider4.jpeg" data-fancybox="gallery">
+                    <img src="picture/jslider4.jpeg" />
+                </a>
+                
+              </li>
+              <!-- items mirrored twice, total of 12 -->
+            </ul>
+          </div>
     </section>
 
     <section id="latest">
@@ -210,5 +266,9 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/script.js"></script>
+    
 </body>
 </html>
